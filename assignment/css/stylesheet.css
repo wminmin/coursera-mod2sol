@@ -10,12 +10,16 @@ h1 {
 
 p {
   border: 1px solid black;
-  width: 90%;
+  width: 50%;
   height: 30px;
-  margin-right:0;
   font-family: Helvetica;
   color: white;
   text-align: right;
+  float:right;
+}
+section {
+clear:both;
+
 }
 
 #p1 {
@@ -33,10 +37,9 @@ p {
 #box {
  background-color: grey;
  border: 1px solid black;
- padding: 10px;
+/*padding: 10px;*/
  margin-left: 20px;
  margin-right:10px;
- margin-top:10px;
  margin-bottom:20px;
 }
 
